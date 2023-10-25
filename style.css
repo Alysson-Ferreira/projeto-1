@@ -2,74 +2,76 @@ body {
     margin: 0;
     background-color: white;
 }
+.cabeca {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
 /* estilo do cabeçalho */
 header {
     background-color: rgba(27, 81, 161, 0.87);
     color: white;
 }
-header h1 {
+h1 {
     display: inline-block;
     margin-left: 10px;
 }
+
 .navegacao {
     float: right; /* vai ficar fixa no lado direito */
     margin-top: 30px; /* uma margem de 30 px do inicio do site */
-    margin-right: 30px;
 }
 .navegacao li{
     display: inline-block; /* vai ficar na mesma linha um ao lado do outro */
     margin-right: 20px; /* com uma margem de 20 pixels de diferença */
     cursor: pointer;
     padding: 5px;
-    justify-content: space-around;
-    border-radius: 2px;
 }
-header a {
+a {
     color: #fff;
     font-weight: bold;
-    transition: 0.5s; /* transição vai ocorrer em 0.5 segundos */
+    transition: 1s; /* transição vai ocorrer em 0.2 segundos */
 }
-header li:hover {
+li:hover {
     transform: scale(1.1); /* vai aumentar a escala do botão */
     background-color: black;
     color: white;
+    border-radius: 5px;
 }
 /* estilo corpo */
-section {
-    color: rgba(27, 81, 161, 0.87);
-    width: 100%;
-    margin: auto;
+img {
+    width: auto;
+    height: 400px;
+    box-shadow: 2px;
+}
+.corpo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-section p, h2 {
-    margin: 5px;
+    width: 90%;
+    margin: auto;
     text-align: justify;
     line-height: 1.5;
 }
-img {
-    height: auto;
-    max-width: 100%;
-    border-radius: 5px;
-    margin: 5px;
+section {
+    color: rgba(27, 81, 161, 0.87);
 }
 /* estilo rodapé */
 footer {
     background: rgba(27, 81, 161, 0.87);
+    position: relative;
     color: #fff;
-    font-size: 16px;
-    text-align: center;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55px;
 }
-span {
+.footer {
+    font-size: 16px;
+    text-align: center;
     font-weight: bolder;
-    margin-top: 40px;
 }
+
 
 
 
