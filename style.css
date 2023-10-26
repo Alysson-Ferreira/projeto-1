@@ -50,12 +50,14 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    text-align: justify;
+
     line-height: 1.5;
     align-items: center;
 }
 p, h2 {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
 section {
     color: rgba(27, 81, 161, 0.87);
