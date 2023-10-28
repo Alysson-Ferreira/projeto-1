@@ -21,6 +21,7 @@ h1 {
 .navegacao {
     float: right; /* vai ficar fixa no lado direito */
     margin-top: 30px; /* uma margem de 30 px do inicio do site */
+    display: flex;
 }
 .navegacao li{
     display: inline-block; /* vai ficar na mesma linha um ao lado do outro */
