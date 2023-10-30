@@ -50,6 +50,7 @@ img {
     box-shadow: 2px;
     margin-left: 10%;
     margin-top: 20px;
+    
 }
 .corpo {
     display: flex;
@@ -57,7 +58,7 @@ img {
     width: 100%;
 
     line-height: 1.5;
-    align-items: center;
+    align-items: start;
 }
 p{
     margin-left: 5%;
@@ -66,7 +67,9 @@ p{
     margin-bottom: 0px;
 }
 h2 {
-    text-align: start;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
 }
 section {
     color: rgba(27, 81, 161, 0.87);
