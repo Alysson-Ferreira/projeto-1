@@ -14,30 +14,31 @@ header {
     color: white;
 }
 h1 {
-    display: inline-block;
+    float: left;
     margin-left: 10px;
 }
 
 .navegacao {
-    float: right; 
-    margin-top: 30px; 
+    float: right; /* vai ficar fixa no lado direito */
+    margin-top: 30px; /* uma margem de 30 px do inicio do site */
     display: flex;
 }
 .navegacao li{
-    display: inline-block; 
-    margin-right: 20px; 
+    display: flex; /* vai ficar na mesma linha um ao lado do outro */
+    margin-right: 20px; /* com uma margem de 20 pixels de diferença */
     cursor: pointer;
     padding: 5px;
 }
 a {
     color: #fff;
-    text-decoration: none;
     font-weight: bold;
-    transition: 1s;
+    transition: 1s; /* transição vai ocorrer em 0.2 segundos */
+    text-decoration: none;
 }
 li:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* vai aumentar a escala do botão */
     background-color: black;
     color: white;
     border-radius: 5px;
+    
 }
