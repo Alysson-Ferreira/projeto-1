@@ -33,6 +33,7 @@ a {
     color: #fff;
     font-weight: bold;
     transition: 1s; /* transição vai ocorrer em 0.2 segundos */
+    text-decoration: none;
 }
 li:hover {
     transform: scale(1.1); /* vai aumentar a escala do botão */
