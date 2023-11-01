@@ -65,3 +65,19 @@ h2 {
 section {
     color: rgba(27, 81, 161, 0.87);
 }
+/* rodapé */
+footer {
+    background: rgba(27, 81, 161, 0.87);
+    position: relative;
+    color: #fff;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer {
+    font-size: 11px;
+    text-align: center;
+    font-weight: bolder;
+}
