@@ -29,6 +29,7 @@ h1 {
     margin-right: 20px; /* com uma margem de 20 pixels de diferença */
     cursor: pointer;
     padding: 5px;
+    padding-bottom: 0;
 }
 a {
     color: #fff;
@@ -49,16 +50,13 @@ img {
     height: 400px;
     box-shadow: 2px;
     margin-left: 10%;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
 .corpo {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    line-height: 1.5;
-    align-items: start;
+    line-height: 1.5;  
 }
 p{
     margin-left: 5%;
@@ -66,13 +64,18 @@ p{
     text-align: justify;
     margin-bottom: 0px;
 }
-h2 {
+#titulo {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0px;
+    text-align: left;
 }
 section {
     color: rgba(27, 81, 161, 0.87);
+}
+strong {
+    background-color: rgb(77, 145, 193);
+    color: white;
 }
 /* estilo rodapé */
 footer {
