@@ -16,7 +16,7 @@ header {
 }
 h1 {
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .navegacao {
@@ -46,10 +46,10 @@ li:hover {
 }
 /* estilo corpo */
 img {
-    width: 80%;
+    width: 70%;
     height: 400px;
     box-shadow: 2px;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 20px; 
 }
 .corpo {
@@ -57,9 +57,10 @@ img {
     flex-direction: column;
     width: 100%;
     line-height: 1.5;  
+    align-items: center;
 }
 p{
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 5%;
     text-align: justify;
     margin-bottom: 0px;
@@ -73,9 +74,10 @@ p{
 section {
     color: rgba(27, 81, 161, 0.87);
 }
-strong {
+#link {
     background-color: rgb(77, 145, 193);
     color: white;
+
 }
 /* estilo rodapé */
 footer {
