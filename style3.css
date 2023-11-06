@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
 body {
     margin: 0;
+    padding: 0;
     background-color: white;
+    font-family: 'Crimson Text', serif;
 }
 .cabeca {
     width: 100%;
@@ -20,35 +23,70 @@ h1 {
 }
 
 .navegacao {
-    float: right; /* vai ficar fixa no lado direito */
-    margin-top: 30px; /* uma margem de 30 px do inicio do site */
+    float: right; 
+    margin-top: 30px; 
     display: flex;
 }
 .navegacao li{
-    display: flex; /* vai ficar na mesma linha um ao lado do outro */
-    margin-right: 20px; /* com uma margem de 20 pixels de diferença */
+    display: flex;
+    margin-right: 20px; 
     cursor: pointer;
     padding: 5px;
 }
-.nav {
+#nav {
     color: #fff;
     font-weight: bold;
-    transition: 1s; /* transição vai ocorrer em 0.2 segundos */
+    transition: 0.5s; 
     text-decoration: none;
 }
-.nav:hover {
-    transform: scale(1.1); /* vai aumentar a escala do botão */
+#nav:hover {
+    transform: scale(1.1); 
     background-color: black;
     color: white;
     border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: -10px;
     
 }
 /* corpo */
 
-img {
+.img {
     border-radius: 50%;
     height: 300px;
     width: 300px;
+}
+.sociais {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.corpo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 1.5;  
+    align-items: center;
+}
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+.perfil {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /* estilo rodapé */
 footer {

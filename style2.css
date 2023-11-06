@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     margin: 0;
     background-color: white;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .cabeca {
     width: 100%;
