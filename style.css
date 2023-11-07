@@ -54,22 +54,21 @@ img {
     box-shadow: 2px;
     margin-left: 16%;
     margin-top: 20px; 
-    margin-bottom: 20px;
 }
 .corpo {
     display: flex;
     flex-direction: column;
     width: 100%;
     line-height: 1.5;  
-
 }
 .container {
     align-items: center;
     width: 70%;
-    height: 400px;
+    height: 300px;
     box-shadow: 2px;
     margin-left: 13%;
-    margin-top: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 20px;
 }
 p{
     margin-left: 5%;
